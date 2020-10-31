@@ -1,5 +1,6 @@
 
 # Add source roots to PYTHONPATH
-export PYTHONPATH=`pwd`/src/main/
+export PYTHONPATH=`pwd`
 
-python3 src/main/python/main.py
+cd src/main/python
+python3 ./main.py

@@ -51,5 +51,4 @@ if __name__ == '__main__':
 
         cursor.execute(postgres_insert_query, record_to_insert)
         connection.commit()
-
-
+    print("Data successfully stored")
