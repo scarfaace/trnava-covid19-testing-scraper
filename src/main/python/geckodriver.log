@@ -58,3 +58,39 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1604133883772	Marionette	INFO	Listening on port 36531
 1604133883833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604137358385	geckodriver	INFO	Listening on 127.0.0.1:45759
+1604137358389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileghzxry"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604137359925	Marionette	INFO	Listening on port 32835
+1604137360011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604137379871	geckodriver	INFO	Listening on 127.0.0.1:49963
+1604137379874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecu4OEp"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604137381434	Marionette	INFO	Listening on port 42175
+1604137381494	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604138010032	geckodriver	INFO	Listening on 127.0.0.1:46037
+1604138010035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4Cpqxq"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604138011687	Marionette	INFO	Listening on port 36795
+1604138011763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604138242889	geckodriver	INFO	Listening on 127.0.0.1:37003
+1604138242892	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDVhq8J"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604138244467	Marionette	INFO	Listening on port 45297
+1604138244510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604138468179	geckodriver	INFO	Listening on 127.0.0.1:44991
+1604138468183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKMNwhy"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604138469691	Marionette	INFO	Listening on port 35807
+1604138469830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604138499927	geckodriver	INFO	Listening on 127.0.0.1:52653
+1604138499930	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegKRzDu"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604138501544	Marionette	INFO	Listening on port 36943
+1604138501668	Marionette	WARN	TLS certificate errors will be ignored for this session
