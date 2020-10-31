@@ -1,9 +1,18 @@
 from datetime import datetime
 
+import psycopg2
+
 from output import PostgresOutputter
 from processor import TrnavaBeautifulSoupWrapper, TrnavaTestingPlaceAttributesExtractor
 
-outputter = PostgresOutputter()
+postgres_connection = psycopg2.connect(
+    user="postgres",
+    password="abcd123",
+    host="localhost",
+    port="5432",
+    database="postgres"
+)
+outputter = PostgresOutputter(postgres_connection)
 
 if __name__ == '__main__':
     time_now = datetime.today()
@@ -20,5 +29,6 @@ if __name__ == '__main__':
             time_now
         )
         outputter.output(record_to_insert)
+
 
     print("Data successfully stored")
